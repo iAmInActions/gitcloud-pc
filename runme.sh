@@ -12,7 +12,7 @@ sudo npm install -g localtunnel
 sudo lt --port 80 --subdomain gitcloud-pc-novnc &
 
 # Start this code automatically:
-chmod + ./gettop.sh
+chmod +x ./gettop.sh
 sudo ./gettop.sh
 
 # Keep action from closing:
