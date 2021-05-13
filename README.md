@@ -16,3 +16,6 @@ The Desktop can be accessed by clicking this link:  https://gitcloud-pc-novnc.lo
 # How to make it run other stuff?
 1: Remove the launch script from the end of gettop.sh
 2: Add your own code at the end of gettop.sh
+
+# How to manually run this for testing?
+Simply edit ***This*** line.
