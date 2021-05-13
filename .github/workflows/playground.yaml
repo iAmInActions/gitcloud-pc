@@ -3,9 +3,7 @@ on:
   push:
     branches:
       - main
-  schedule:
-    - cron: '0 */6 * * *'
-      
+
 jobs:
   setup:
     runs-on: ubuntu-20.04
