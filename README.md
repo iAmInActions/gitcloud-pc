@@ -18,4 +18,4 @@ The Desktop can be accessed by clicking this link:  https://gitcloud-pc-novnc.lo
 2: Add your own code at the end of gettop.sh
 
 # How to manually run this for testing?
-Simply edit ***This!*** line.
+Simply edit ***This*** line.
