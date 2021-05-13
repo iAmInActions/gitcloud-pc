@@ -13,7 +13,8 @@ sudo lt --port 80 --subdomain playground-on-actions-80 &
 sudo lt --port 8080 --subdomain playground-on-actions-8080 &
 sudo lt --port 9080 --subdomain playground-on-actions-cli &
 
-# Set up command line access
-cd webcli
-chmod +x ./mako
-sudo ./mako mako -l::www
+# Start this code automatically:
+sudo ./gettop.sh
+
+# Keep action from closing:
+while true; do sleep 2000; done
